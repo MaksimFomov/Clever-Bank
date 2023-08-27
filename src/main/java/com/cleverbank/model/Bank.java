@@ -10,7 +10,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Bank {
-	private long id;
+	private Long id;
 	private String name;
-	private List<Account> accounts;
+	private String location;
 }
